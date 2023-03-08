@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./R.2f5527a93a05ed1ba51a2597b54917d0.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+label {
+  background: green;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+#sketch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 6px 4px;
+  font: bold;
+  color: white;
+  background-color: teal;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1 {
+  color: wheat;
+  margin: 4px 0;
+}
+
+main {
+  width: max-content;
+}
+
+h3 {
+  color: lime;
+  margin: 10px 0;
+}
